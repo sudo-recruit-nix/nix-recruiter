@@ -16,3 +16,5 @@ Or you can pass and do nothing about it.
 Unless you don't care to be on the good side of history, this is where it all starts.
 
 Are you ready to join us?
+
+https://sudo-recruit-nix.github.io/nix-recruiter/
