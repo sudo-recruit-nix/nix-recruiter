@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>vim</title>
-</head>
-
-<body style="background:#0c0c0c; color:#00ff00; font-family:monospace;">
+<body style="background:#0c0c0c; color:#00ff00; font-family:monospace; padding:20px;">
 
 <pre id="screen"></pre>
 
@@ -14,12 +9,12 @@ let contenido = [
 "~",
 "~",
 "~",
-"\"mensaje.txt\" 1L, 1C",
+"\"mensaje.txt\" 8L, 1C",
 "",
 "Te quiero muchísimo ❤️",
 "",
 "Si estás viendo esto...",
-"es porque eres el amor de mi vida",
+"es porque eres el amor de mi vida 😌",
 "",
 "Nunca lo olvides, pitufi <3",
 "",
@@ -35,9 +30,9 @@ let screen = document.getElementById("screen");
 
 function escribir() {
     if (i < contenido.length) {
-        screen.innerHTML += contenido[i] + "\\n";
+        screen.innerHTML += contenido[i] + "\n";
         i++;
-        setTimeout(escribir, 300);
+        setTimeout(escribir, 250);
     }
 }
 
